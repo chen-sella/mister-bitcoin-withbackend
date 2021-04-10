@@ -1,0 +1,34 @@
+@import '../../assets/styles/setup/variables';
+
+.contact-details-page {
+  .contact-details-container {
+    color: white;
+    margin: 0px auto;
+    width: fit-content;
+    padding: 20px 50px;
+    // border: 1px solid #eceaea;
+    border-radius: 15px;
+    // background-color: white;
+
+    & > :not(:last-child) {
+      margin-block-end: 10px;
+    }
+    .actions {
+      width: 100%;
+
+      & > :not(:last-child) {
+        margin-inline-end: 10px;
+      }
+      a {
+        border-radius: 50%;
+        width: 45px;
+        height: 45px;
+        cursor: pointer;
+
+        &:hover {
+          background-color: $clr3;
+        }
+      }
+    }
+  }
+}

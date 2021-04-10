@@ -1,0 +1,28 @@
+@import '../../assets/styles/setup/variables';
+
+.transfer-fund {
+  border-radius: 5px;
+  padding: 20px 20px;
+  background-color: $clr3;
+
+  h3 {
+    margin-block-end: 10px;
+  }
+
+  form {
+    & > :not(:first-child) {
+      margin-inline-start: 10px;
+    }
+    input {
+      background-color: transparent;
+      border: none;
+      border-bottom: 1px solid #eceaea;
+    }
+    button {
+      background-color: transparent;
+      border: none;
+      cursor: pointer;
+      border-radius: 4px;
+    }
+  }
+}

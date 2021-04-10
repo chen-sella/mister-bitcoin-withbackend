@@ -1,0 +1,89 @@
+@import '../../assets/styles/setup/variables';
+@import '../../assets/styles/setup/mixins';
+
+.home-page {
+  .bgc-img {
+    width: 600px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+  }
+  & > * {
+    background-color: #ffffffc2;
+    border-radius: 5px;
+    padding: 25px 40px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    height: 300px;
+  }
+  & > :not(:last-child) {
+    margin-inline-end: 15px;
+  }
+  .home-page-content {
+    margin-top: 15px;
+
+    & > .container:not(:last-of-type) {
+      margin-block-end: 10px;
+    }
+
+    h1 {
+      text-transform: capitalize;
+      margin-bottom: 20px;
+    }
+
+    .container {
+      width: 200px;
+      justify-content: flex-start;
+
+      p {
+        font-size: 16px;
+      }
+      img {
+        margin-inline-end: 10px;
+      }
+    }
+  }
+
+  .user-stat {
+    margin-top: 15px;
+    flex-wrap: wrap;
+
+    & > :not(:last-child) {
+      margin-inline-end: 15px;
+    }
+
+    div {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      font-size: 20px;
+      color: white;
+      margin-top: 15px;
+      font-size: 14px;
+    }
+  }
+}
+
+@include for-wide-layout {
+  .home-page {
+    & > * {
+      height: 350px;
+    }
+  }
+}
+
+@include for-normal-layout {
+  .home-page {
+    flex-direction: column;
+    align-items: center;
+
+    & > * {
+      width: 70%;
+      height: unset;
+    }
+    .user-stat {
+      margin-inline-end: 15px;
+    }
+  }
+}

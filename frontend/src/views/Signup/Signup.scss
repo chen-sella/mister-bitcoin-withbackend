@@ -1,0 +1,42 @@
+@import '../../assets//styles/setup/variables';
+@import '../../assets//styles/setup/mixins';
+
+.signup-container {
+  form {
+    margin: 40px auto;
+    background-color: #fff;
+    border-radius: 3px;
+    padding: 25px 40px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    & > :not(:last-child) {
+      margin-block-end: 15px;
+    }
+    input {
+      border: 1px solid #eceaea;
+      padding: 15px;
+      border-radius: 25px;
+      width: 100%;
+    }
+    button {
+      border: 1px solid #eceaea;
+      padding: 15px;
+      border-radius: 25px;
+      width: 100%;
+      background-color: #fdefff;
+
+      cursor: pointer;
+      &:hover {
+        background-color: #e2cddd;
+      }
+    }
+  }
+}
+
+@include for-narrow-layout {
+  .signup-container {
+    form {
+      width: 330px;
+    }
+  }
+}

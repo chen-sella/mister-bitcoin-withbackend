@@ -1,0 +1,7 @@
+.move-preview {
+  padding: 10px 0;
+
+  &:not(:last-of-type) {
+    border-bottom: 1px solid #c3c2c2;
+  }
+}

@@ -1,0 +1,23 @@
+@import '../../assets/styles/setup/variables';
+
+.contact-page {
+  flex-grow: 1;
+  
+  .container {
+    margin-block-end: 10px;
+
+    & > :not(:last-child) {
+      margin-inline-end: 20px;
+    }
+
+    a {
+      border-radius: 50%;
+      width: 45px;
+      height: 45px;
+
+      &:hover {
+        background-color: $clr3;
+      }
+    }
+  }
+}

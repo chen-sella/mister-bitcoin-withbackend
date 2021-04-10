@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  color: $clr1;
+  font-family: Montserrat;
+}
+
+body {
+  margin: 0;
+  font-size: 14px;
+  background-color: $clr1;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  font-weight: 500;
+  font-family: Roboto-Slab;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  max-width: 48ch;
+  margin: 0;
+}
+
+input,
+button {
+  font-family: Montserrat;
+}
+
+.bgc-img {
+  background-image: url(../../img/bg-curvy-desktop.svg);
+  background-position: bottom;
+  background-repeat: no-repeat;
+}
+
+// img {
+//     width: 100%;
+// }

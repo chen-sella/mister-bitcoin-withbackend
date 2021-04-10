@@ -1,0 +1,18 @@
+.contact-preview {
+  border-radius: 10px;
+  background-color: white;
+  padding: 20px 30px;
+  cursor: pointer;
+  color: #021b32;
+
+  &:hover {
+    background-color: #c2c0c0;
+  }
+
+  img {
+    margin-inline-end: 10px;
+    width: 50px;
+    background-color: #7f9abe;
+    border-radius: 50%;
+  }
+}
