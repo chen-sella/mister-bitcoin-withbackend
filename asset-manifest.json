@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "./static/css/main.2fb8e5c1.chunk.css",
+    "main.js": "./static/js/main.a10f002a.chunk.js",
+    "main.js.map": "./static/js/main.a10f002a.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.047858e7.js",
+    "runtime-main.js.map": "./static/js/runtime-main.047858e7.js.map",
+    "static/js/2.ca52c84e.chunk.js": "./static/js/2.ca52c84e.chunk.js",
+    "static/js/2.ca52c84e.chunk.js.map": "./static/js/2.ca52c84e.chunk.js.map",
+    "index.html": "./index.html",
+    "static/css/main.2fb8e5c1.chunk.css.map": "./static/css/main.2fb8e5c1.chunk.css.map",
+    "static/js/2.ca52c84e.chunk.js.LICENSE.txt": "./static/js/2.ca52c84e.chunk.js.LICENSE.txt",
+    "static/media/main.scss": "./static/media/bg-curvy-desktop.953dbf39.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.047858e7.js",
+    "static/js/2.ca52c84e.chunk.js",
+    "static/css/main.2fb8e5c1.chunk.css",
+    "static/js/main.a10f002a.chunk.js"
+  ]
+}
